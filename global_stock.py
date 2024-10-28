@@ -9,7 +9,7 @@ from datetime import timedelta
 
 def global_stock_prediction():
     st.title("Stock Price Prediction with ARIMA")
-    # Danh sách mã cổ phiếu toàn cầu
+    # Danh sách mã cổ phiếu toàn cầu1
     ticker_list = ["AAPL", "MSFT", "GOOGL", "AMZN", "TSLA", "FB", "NVDA", "NFLX", "INTC", "AMD"]
  
     # Searchable dropdown for stock tickers
