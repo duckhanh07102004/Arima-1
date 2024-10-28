@@ -2,7 +2,7 @@ import streamlit as st
 
 st.title("Stock Price Prediction with ARIMA")
 
-# Tạo menu chọn lựa
+# Create menu
 menu = st.sidebar.selectbox("Select", ["Global", "Vietnam"])
 
 if menu == "Global":
